@@ -3,6 +3,7 @@
 from datetime import datetime
 import hashlib
 import json
+import locale
 import os
 import typer
 from cache import Cache
@@ -16,7 +17,10 @@ app = typer.Typer()
 
 token = os.getenv("GITHUB_TOKEN")
 api_key = os.getenv("OPENAI_API_KEY")
+loc = os.getenv("LOC")
 
+if loc is None:
+    loc = locale.getlocale()[0]
 
 @app.command()
 def fetch(owner: str, repo: str, base: str, head: str):
@@ -58,7 +62,7 @@ def fetch_commit(owner: str, repo: str, branch: str, output: str):
 
 
 @app.command()
-def generate_report(owner: str, repo: str, base: str, head: str, output: str):
+def generate_report(owner: str, repo: str, base: str, head: str, output: str, loc: str):
     """
     Fetch diff, generate explanation, and save a Markdown report.
 
@@ -67,6 +71,7 @@ def generate_report(owner: str, repo: str, base: str, head: str, output: str):
     :param base: Base commit SHA or branch name
     :param head: Head commit SHA or branch name
     :param output: Output filename for the Markdown report like "%Y%m/report-%Y%m%d-{category}.md"
+    :param loc: Language for the explanation (e.g., "en_US", "zh_CN")
     """
     cache = Cache()
     if not token:
@@ -103,17 +108,18 @@ def generate_report(owner: str, repo: str, base: str, head: str, output: str):
         typer.echo(f"Category: {category}")
 
         explanation, summary = cache.with_cache(
-            f"{base_key}_{category}_explanation",
+            f"{base_key}_{category}_{loc}_explanation",
             llm_api.generate_diff_explanation,
             patches,
             "detailed",
+            loc,
         )
 
         title = f"Diff Insight Report - {category}"
         report = report_generator.generate_markdown_report(
             title, today, permalink, summary, explanation
         )
-        output_path = today.strftime(output).format(category=category)
+        output_path = today.strftime(output).format(category=category, loc=loc)
         report_generator.save_report_to_file(report, output_path)
         typer.echo(f"Report saved to {output_path}")
 

@@ -106,7 +106,7 @@ class LLMAPI:
         """
         self.client = OpenAI(api_key=api_key)
 
-    def generate_summary(self, explanation: str) -> str:
+    def generate_summary(self, explanation: str, local: str) -> str:
         """
         Generate a summary from the provided explanation.
 
@@ -126,7 +126,7 @@ class LLMAPI:
 
             """
         )
-        loc = locale.getlocale()[0]
+        loc = local
 
         prompt = textwrap.dedent("""\
             Locale: {loc}
@@ -155,7 +155,7 @@ class LLMAPI:
         return summary
 
     def generate_diff_explanation_item(
-        self, diff_data: dict[str, Any], history: Optional[list[Any]] = None
+        self, diff_data: dict[str, Any], history: Optional[list[Any]] = None, locale: str = "en_US"
     ) -> tuple[str, dict[str,str], list[Any]]:
         """
         Generate a natural language explanation for the provided diff data.
@@ -164,7 +164,7 @@ class LLMAPI:
         :return: A string containing the generated explanation
         """
         history = history or []
-        loc = locale.getlocale()[0]
+        loc = locale
         style = "overview"
         system = textwrap.dedent(
             f"""\
@@ -236,7 +236,7 @@ class LLMAPI:
         return assistant_response, summary, history
 
     def generate_diff_explanation(
-        self, diff_data: list[dict[str, Any]], style: str = "detailed"
+        self, diff_data: list[dict[str, Any]], style: str = "detailed", locale: str = "en_US"
     ) -> tuple[str, str]:
         """
         Generate a natural language explanation for the provided diff data.
@@ -249,11 +249,10 @@ class LLMAPI:
         explanation = ""
         explanation_report = ""
         history = []
-        loc = locale.getlocale()[0]
         summary_table : list[dict[str, str]] = []
         for item in diff_data:
             item_explanation, summary, history = self.generate_diff_explanation_item(
-                item, history
+                item, history, locale
             )
             hash = hash_filename(item["filename"])
             logging.debug(f"Hash for {item['filename']}: {hash}")
@@ -317,7 +316,7 @@ class LLMAPI:
         )
         prompt = textwrap.dedent(
             f"""\
-            Locale: ${loc}
+            Locale: ${locale}
             Write a report to explain the following code diff in a {style} manner:
             You are multilingual. Your report must be written the language according to user's locale.
             <diff>
@@ -340,7 +339,7 @@ class LLMAPI:
         logging.debug(f"Assistant response: {assistant_response}")
         logging.info(f"Completed generating explanation for diff data. Usage: {usage}")
 
-        summary = self.generate_summary(assistant_response)
+        summary = self.generate_summary(assistant_response, locale)
 
         report = textwrap.dedent(
             """

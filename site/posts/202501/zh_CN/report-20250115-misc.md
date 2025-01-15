@@ -1,58 +1,56 @@
 ---
 date: '2025-01-15'
-permalink: https://github.com/MicrosoftDocs/azure-ai-docs/compare/MicrosoftDocs:de17d62...MicrosoftDocs:36d0ff5
-summary: このコード変更は、複数のドキュメントにおけるリンク修正および新機能の追加が主な内容です。主な変更点には、Document Intelligenceのサポートリクエストリンクの更新や、各SDKのサンプルリンクの修正、Gretel
-  Navigatorモデルの導入に関する新しいガイドの追加があります。特に破壊的な変更は報告されていないものの、ドキュメントリンクの更新に伴い、参照先が変更された可能性があるため注意が必要です。全体として、ユーザーが正確で最新の情報にアクセスできるよう、ドキュメントの正確性とユーザーエクスペリエンスを向上させることを目指しています。
+permalink: https://github.com/MicrosoftDocs/azure-ai-docs/compare/MicrosoftDocs:00af406...MicrosoftDocs:85d0a58
+summary: 该代码变更主要包含对一系列文档的更新和优化，涵盖了文档智能服务、AI模型生命周期、以及Gretel Navigator模型的新增文档等。这些更新提高了文档的准确性和实用性，新增了Gretel
+  Navigator聊天模型的部署指南和自定义神经模型的支持功能，同时修正了多处链接和更新了日期信息。整体而言，更新确保了文档的正确性和完整性，为用户提供了最新的使用指导和开发信息。
 title: Diff Insight Report - misc
 
 ---
 
-[View Diff on GitHub](https://github.com/MicrosoftDocs/azure-ai-docs/compare/MicrosoftDocs:de17d62...MicrosoftDocs:36d0ff5){target="_blank"}
+[View Diff on GitHub](https://github.com/MicrosoftDocs/azure-ai-docs/compare/MicrosoftDocs:00af406...MicrosoftDocs:85d0a58){target="_blank"}
 
-<format>
 # Highlights
-このコード変更は、複数のドキュメントにおけるリンク修正および新機能の追加が主な内容です。主な変更点には、Document Intelligenceのサポートリクエストリンクの更新や、各SDKのサンプルリンクの修正、Gretel Navigatorモデルの導入に関する新しいガイドの追加があります。
+该代码变更主要包含对一系列文档的更新和优化，涵盖了文档智能服务、AI模型生命周期、以及Gretel Navigator模型的新增文档等。改动大多是轻微更新，涵盖了链接修正、内容补充和格式调整等。这些更新提高了文档的准确性和实用性之外，还涵盖新功能的说明，如自动标记的费用描述和新增的Gretel Navigator模型使用指南。
 
 ## New features
-- Gretel NavigatorチャットモデルをAzure AI Foundryで使用する方法を解説する新しいドキュメントの追加。
+- 新增了Gretel Navigator聊天模型的部署指南，详细介绍了其功能和使用方法。
+- 自定义神经模型文档中增加了签名检测和重叠字段的支持功能说明。
 
 ## Breaking changes
-- 特に破壊的な変更は報告されていないが、ドキュメントリンクの更新に伴い、参照先が変更された可能性があるため注意が必要。
+- 无明显破坏性变化，这些更新保持了向后兼容性。
 
 ## Other updates
-- FAQやHow-Toガイド、サービス制限、モデルカタログなど各種ドキュメントでリンクおよび情報の更新。
-- Mistral AIやHealthcare AIモデルに関する情報が追加され、ドキュメントが最新化された。
-- 提供地域に関する情報の修正と整理。
-- ドキュメント構造の改善により可読性が向上。
+- 常见问题解答、如何使用JavaScript和C# SDK文档的链接修正。
+- 更新了多个日期信息，保持文档的最新状态。
+- 文档中由于格式调整所导致的信息澄清和组织结构优化。
 
 # Insights
-今回の変更は、主にドキュメントのリンクや情報の更新を通じて、ユーザーが正確かつ最新の情報にアクセスできるようにするもので、非常に技術的な側面に重点を置いています。
+此次更新集中在多个方面优化文档的内容和结构，确保其内容持续保持新鲜和相关性。这些更新不仅在版本和功能上进行了内容补充，还注重提高文档描述的清晰度和查找便利性。
 
-まずDocument Intelligenceに関連する変更を見てみると、FAQやクライアントライブラリ、サービス制限に関するドキュメントでリンク変更や情報の追加が行われました。ここでは特に、トランザクション毎秒(TPS)のためのサポートリクエストへ直接アクセスできるようにリンクが修正され、ユーザーの利便性が向上しています。また、JavaScriptおよびC# SDKに関するドキュメントのサンプルリンクが最新のものに更新され、使用時の誤解を避けるための対策が取られています。
+文档智能服务部分的更新，使用户更容易理解服务使用的具体细节，如自动标记的费用，以及在集成过程中所需的URL安全访问要求。这使用户在部署和使用AI解决方案时能更灵活地调整他们的策略。
 
-さらに、AI Studioにおける新しいドキュメントの追加は非常に重要な動きです。特にGretel Navigatorチャットモデルのデプロイについての詳細なガイドが新たに提供され、これにより、ユーザーは合成データ生成に対応した先進的なAIモデルを効果的に展開できるようになります。この追加により、Azure AI Foundryがユーザーに提供できるサービスの範囲が拡大しました。
+对于SDK文档的调整，特别是链接的修正，确保使用者能直接访问到正确版本的样例代码，从而更高效地实现其开发需求。链接精确指向现有最新的API文档页，在提升用户体验的同时，避免了可能由于链接错误带来的困惑。
 
-また、モデルカタログと提供地域情報の更新により、ユーザーが利用可能なAIモデルの選択肢とその利用地域をより正確に把握できるようになりました。情報の整理により、モデルライフサイクルや退役に関する情報も透明性が増しており、各種プロジェクトへの影響を事前に認識するための基盤が強化されています。
+增加的Gretel Navigator模型使用文档，扩展了Azure AI Foundry的可用文档集合，提供了详细的步骤从模型部署到实际应用场景的指导。这一新增内容不仅丰富了模型目录，还展示了服务的多样性和与之相关的功能优势。
 
-総じて、この一連の変更は、ドキュメントの正確性とユーザーエクスペリエンスの向上を目指したものであり、開発者やエンジニアが最新情報を基により効率的に作業を進めるための助けとなります。これにより、提供された技術文書がより信頼性の高い情報源としての役割を果たすことが期待されます。
-</format>
+总体而言，更新保证了文档的准确性和完整性，同时也为用户提供了最新的使用指导和实用的开发信息，进一步拓展了其应用和功能的可能性。
 
 # Summary Table
 |  Filename  | Type |    Title    | Status | A  | D  | M  |
 |------------|------|-------------|--------|----|----|----|
-| [faq.yml](#item-7a051f) | minor update | FAQのサポートリクエストリンクの更新 | modified | 1 | 1 | 2 | 
-| [javascript-sdk.md](#item-b28fc0) | minor update | JavaScript SDKのサンプルリンクの修正 | modified | 1 | 1 | 2 | 
-| [csharp-sdk.md](#item-ee69c7) | minor update | C# SDKのクライアントライブラリリンクの修正 | modified | 1 | 1 | 2 | 
-| [javascript-sdk.md](#item-615fcd) | minor update | JavaScript SDKのサンプルリンクの修正 | modified | 1 | 1 | 2 | 
-| [service-limits.md](#item-5ceae5) | minor update | サービス制限に関するドキュメントの改訂 | modified | 29 | 32 | 61 | 
-| [custom-neural.md](#item-ac0e69) | minor update | カスタムニューラルモデルに関するドキュメントの更新 | modified | 11 | 11 | 22 | 
-| [changelog-release-history.md](#item-dccdd3) | minor update | リリース履歴ドキュメントのリンク修正 | modified | 3 | 3 | 6 | 
-| [sdk-overview-v4-0.md](#item-d59a82) | minor update | SDK概要ドキュメントのリンク修正 | modified | 1 | 1 | 2 | 
-| [model-lifecycle-retirement.md](#item-f0fc21) | minor update | モデルライフサイクル廃止に関するドキュメントの更新 | modified | 3 | 2 | 5 | 
-| [deploy-models-gretel-navigator.md](#item-2e9806) | new feature | Gretel NavigatorチャットモデルをAzure AI Foundryで使用する方法を追加 | added | 544 | 0 | 544 | 
-| [model-catalog-overview.md](#item-278001) | minor update | モデルカタログの更新 | modified | 6 | 4 | 10 | 
-| [region-availability-maas.md](#item-35d79c) | minor update | モデルの提供地域の更新 | modified | 36 | 14 | 50 | 
-| [toc.yml](#item-2745cd) | minor update | Gretel Navigatorモデルの追加 | modified | 2 | 0 | 2 | 
+| [faq.yml](#item-7a051f) | minor update | 更新文档智能常见问题解答 | modified | 16 | 9 | 25 | 
+| [javascript-sdk.md](#item-b28fc0) | minor update | 更新JavaScript SDK文档中的示例链接 | modified | 1 | 1 | 2 | 
+| [csharp-sdk.md](#item-ee69c7) | minor update | 更新C# SDK文档中的客户端库链接 | modified | 1 | 1 | 2 | 
+| [javascript-sdk.md](#item-615fcd) | minor update | 更新JavaScript SDK文档中的示例链接 | modified | 1 | 1 | 2 | 
+| [custom-neural.md](#item-ac0e69) | minor update | 更新自定义神经模型文档以增加新功能说明 | modified | 24 | 21 | 45 | 
+| [changelog-release-history.md](#item-dccdd3) | minor update | 更新文档以修正链接指向 | modified | 3 | 3 | 6 | 
+| [sdk-overview-v4-0.md](#item-d59a82) | minor update | 更新文档中的链接格式 | modified | 1 | 1 | 2 | 
+| [whats-new.md](#item-1ec8d3) | minor update | 更新文档以反映最新功能和日期 | modified | 8 | 8 | 16 | 
+| [model-lifecycle-retirement.md](#item-f0fc21) | minor update | 更新模型生命周期文档以反映最新信息 | modified | 3 | 2 | 5 | 
+| [deploy-models-gretel-navigator.md](#item-2e9806) | new feature | 新增使用Gretel Navigator聊天模型的部署指南 | added | 544 | 0 | 544 | 
+| [model-catalog-overview.md](#item-278001) | minor update | 更新模型目录概览文档 | modified | 6 | 4 | 10 | 
+| [region-availability-maas.md](#item-35d79c) | minor update | 更新区域可用性文档以包括Gretel模型 | modified | 36 | 14 | 50 | 
+| [toc.yml](#item-2745cd) | minor update | 更新目录以包含Gretel Navigator模型 | modified | 2 | 0 | 2 | 
 
 
 # Modified Contents
@@ -61,15 +59,76 @@ title: Diff Insight Report - misc
 <details>
 <summary>Diff</summary>
 ````diff
-@@ -242,7 +242,7 @@ sections:
+@@ -7,7 +7,7 @@ metadata:
+   ms.service: azure-ai-document-intelligence
+   ms.custom: references_regions
+   ms.topic: faq
+-  ms.date: 11/19/2024
++  ms.date: 01/14/2025
+   ms.author: lajanuar
+ title: Frequently asked questions
+ summary: |
+@@ -62,7 +62,7 @@ sections:
+          Can Document Intelligence help with semantic chunking within documents for retrieval-augmented generation?
+         answer: |
+           **Yes.**
+-          
++
+           Document Intelligence can provide the building blocks to enable semantic chunking. Semantic chunking is a key step in retrieval-augmented generation (RAG) to ensure context dense chunks and relevance improvement.
  
-           - Increase the workload gradually. Avoid sharp changes.
+           - Document Intelligence provides a layout model that provides a visual decomposition of the document into lines, paragraphs, sections, headers, and footers.
+@@ -133,14 +133,14 @@ sections:
+         answer: |
+          **Yes.**
  
--          - [Create a support request](service-limits.md#create-and-submit-support-request) to increase transactions per second (TPS) limit.
-+          - [Create a support request](service-limits.md#create-and-submit-support-request-for-tps-increase) to increase transactions per second (TPS) limit.
+-         If your Document Intelligence resource is configured with a firewall or virtual network, you need to add the dedicated IP address 20.3.165.95 to the firewall allowlist for your Document Intelligence resource. Some functions in custom projects (for example, autolabel, project management and human in the loop) don't work if the public network access is disabled.
++         For `v4.0 11-30-2024 (GA)`, auto labeling is hosted natively with the rest of the service, so there's no need for IP allowlisting. For any previous version, if your Document Intelligence resource is configured with a firewall or virtual network, you need to add the dedicated IP address 20.3.165.95 to the firewall allowlist for your Document Intelligence resource. Some functions in custom projects (for example, autolabel, project management and human in the loop) don't work if the public network access is disabled.
  
-           Learn more about Document Intelligence [service quotas and limits](service-limits.md).
+       - question: |
+          When I upload a file in Document Intelligence Studio by "Fetch from URL" function, can I use a URL from my blob storage?
  
+         answer: |
+-         **Yes.** 
+-         
++         **Yes.**
++
+          If your Azure blob storage URL includes a SAS token, and is accessible from public networks. You can't use the **Fetch** function for storage accounts where the key access is disabled or behind a firewall/VNet.
+ 
+       - question: |
+@@ -171,7 +171,7 @@ sections:
+ 
+           Document Intelligence offers the latest development options within the following platforms:
+ 
+-          - [REST API](/rest/api/aiservices/document-models/analyze-document?view=rest-aiservices-2023-07-31 &preserve-view=true&tabs=HTTP)
++          - [REST API](/rest/api/aiservices/document-models/analyze-document?view=rest-aiservices-2023-07-31&preserve-view=true&tabs=HTTP)
+ 
+           - [Document Intelligence Studio](https://formrecognizer.appliedai.azure.com/studio)
+ 
+@@ -295,14 +295,21 @@ sections:
+ 
+         The copy operation is limited to copying models within the specific cloud environment where you trained the model. For instance, copying models from the public cloud to the Azure Government cloud isn't supported.
+ 
++    - question: |
++        Am I charged when using auto labeling?
++
++      answer: |
++        **Yes.**
++         Auto label incurs a cost which is equivalent to an analyze request for the corresponding model for a document.
++
+     - question: |
+         Am I charged when training a custom models?
+       answer: |
+         **Yes.**
+ 
+-        For `v4.0 11-30-2024 (GA)` custom neural models can be trained for free for a **maximum of 10 hours**. Whether you're training a single model for the 10 hours, or training multiple models for the total of 10 hours, you aren't charged for the first 10 hours. After using up the free 10 hours, you're **automatically charged by the extra training hour**. For details on the prices, refer to the [pricing page](https://azure.microsoft.com/pricing/details/ai-document-intelligence/). This new paid training feature enables training models for an extended duration to process larger documents. For more information on this paid training feature, check [custom neural model billing section](train/custom-neural.md#billing).
+-        
+-        For `v3.0 2022-08-31` or `v3.1 2023-07-31`, custom neural models can be trained for free for a maximum of 20 training sessions, with each session capped at 30 minutes of training duration. Once you use up all of the 20 training sessions, you can submit Azure support ticket to increase the training session limit. To increase the limit, two training sessions are considered as one training hour, and you're charged per two sessions / one training hour. For details on the prices, refer to the [pricing page]. For more information on ways to increase the limit, check [custom neural model billing section](train/custom-neural.md#billing). **For `v3.0` and `v3.1`, paid training feature is unavailable. Paid training feature for custom neural model is only available on `v4.0`.**
++        For `v4.0 11-30-2024 (GA)` custom neural models can be trained for free for a **maximum of 10 hours**. Whether you're training a single model for the 10 hours, or training multiple models for the total of 10 hours, you aren't charged for the first 10 hours. After using up the free 10 hours, you're **automatically charged by the extra training hour**. For details on prices, refer to the [pricing page](https://azure.microsoft.com/pricing/details/ai-document-intelligence/). This new paid training feature enables training models for an extended duration to process larger documents. For more information on this paid training feature, check [custom neural model billing section](train/custom-neural.md#billing).
++
++        For `v3.0 2022-08-31` or `v3.1 2023-07-31`, custom neural models can be trained for free for a maximum of 20 training sessions, with each session capped at 30 minutes of training duration. Once you use up all of the 20 training sessions, you can submit Azure support ticket to increase the training session limit. To increase the limit, two training sessions are considered as one training hour, and you're charged per two sessions / one training hour. For details on the prices, refer to the [pricing page](https://azure.microsoft.com/pricing/details/ai-document-intelligence/). For more information on ways to increase the limit, check [custom neural model billing section](train/custom-neural.md#billing). **For `v3.0` and `v3.1`, paid training feature is unavailable. Paid training feature for custom neural model is only available on `v4.0`.**
+ 
+   - name: Storage account
+     questions:
 ````
 </details>
 
@@ -78,12 +137,20 @@ title: Diff Insight Report - misc
 ```json
 {
     "modification_type": "minor update",
-    "modification_title": "FAQのサポートリクエストリンクの更新"
+    "modification_title": "更新文档智能常见问题解答"
 }
 ```
 
 ### Explanation
-このコードの変更は、`faq.yml`ファイル内のサポートリクエストリンクの更新に関するものです。具体的には、トランザクション毎秒（TPS）の制限を増加させるためのサポートリクエストを作成する際のリンクが修正されました。元のリンクは、`service-limits.md#create-and-submit-support-request`であったのに対し、新しいリンクは`service-limits.md#create-and-submit-support-request-for-tps-increase`に変更されています。この変更はリンクの明確さを高め、TPS増加のリクエストに関する情報へ直接的にアクセスできるようにしています。
+此次代码修改涉及对文档智能（Document Intelligence）常见问题解答（FAQ）的更新。主要修改内容包括：
+
+1. 更新了文档的版本日期，从“2024年11月19日”修改为“2025年1月14日”。
+2. 增加了关于“自动标记”（auto labeling）使用的说明，明确指出在“v4.0 11-30-2024 (GA)”版本中，自动标记将与服务原生托管，因此不再需要IP允许列表。
+3. 补充了若使用Azure Blob Storage的URL时，需确保URL中包含SAS令牌，并且可以通过公共网络访问的信息。
+4. 增加了一个新问题，涉及自动标记的费用，指明会生成与分析请求等同的费用。
+5. 其他部分也进行了些许格式调整和内容澄清，使信息更加清晰易懂。
+
+整体而言，这次更新增强了用户对文档智能功能和费用的理解，确保文档内容的准确性和时效性。
 
 ## articles/ai-services/document-intelligence/how-to-guides/includes/v4-0/javascript-sdk.md{#item-b28fc0}
 
@@ -107,12 +174,17 @@ title: Diff Insight Report - misc
 ```json
 {
     "modification_type": "minor update",
-    "modification_title": "JavaScript SDKのサンプルリンクの修正"
+    "modification_title": "更新JavaScript SDK文档中的示例链接"
 }
 ```
 
 ### Explanation
-このコードの変更は、`javascript-sdk.md`ファイル内のJavaScript SDKに関連するサンプルリンクの更新を示しています。具体的には、サンプルリンクのパスが修正されており、以前のリンクはバージョン1-betaのサンプルを参照していましたが、新しいリンクはバージョン1のサンプルに対応するものになっています。これは、ユーザーが最新のサンプルコードにアクセスできるようにするための情報を改善する変更です。このようにして、利用者にとってより便利な形で情報が提供されることを目的としています。
+此次代码修改主要更新了JavaScript SDK文档中关于示例链接的内容。在这次更新中，有以下变化：
+
+1. 修改了示例链接的路径：将原来的链接修正为指向JavaScript SDK版本1的示例。这一变化确保用户能够访问到最新的示例代码，有助于更好地理解和使用JavaScript SDK。
+2. 该修改还包括在链接周围的格式调整，以保持文档整体的一致性和可读性。
+
+这次更新虽然仅涉及一个字符的增加和删除，但却显著提高了文档的准确性与有效性，为使用者提供了更为相关和及时的参考资料。
 
 ## articles/ai-services/document-intelligence/quickstarts/includes/csharp-sdk.md{#item-ee69c7}
 
@@ -136,12 +208,17 @@ title: Diff Insight Report - misc
 ```json
 {
     "modification_type": "minor update",
-    "modification_title": "C# SDKのクライアントライブラリリンクの修正"
+    "modification_title": "更新C# SDK文档中的客户端库链接"
 }
 ```
 
 ### Explanation
-このコードの変更は、`csharp-sdk.md`ファイルにおけるC# SDKのクライアントライブラリに関するリンクの更新を示しています。具体的には、クライアントライブラリのリンクが修正されており、以前のリンクは`/dotnet/api/overview/azure/cognitiveservices/documentintelligence?view=azure-dotnet&preserve-view=true`であったのに対し、新しいリンクは`/dotnet/api/azure.ai.documentintelligence?view=azure-dotnet&preserve-view=true`に変更されています。また、チュートリアルやサンプルのリンクに変更はないものの、クライアントライブラリに関連するリンクをより具体的な形にすることで、ユーザーが直接関連情報にアクセスしやすくなっています。この更新は、SDKのユーザビリティを向上させることを目的としています。
+此次代码修改主要更新了C# SDK文档中的客户端库链接。在这次更新中，有以下变化：
+
+1. 客户端库链接的格式进行了一些调整，具体而言，原有链接中的路径由`/dotnet/api/overview/azure/cognitiveservices/documentintelligence`更改为`/dotnet/api/azure/ai/documentintelligence`。这一变化明确了链接所指的是最新的文档智能（Document Intelligence）客户端库，有助于用户更快找到相关的API文档。
+2. 其他部分的链接保持不变，包括SDK参考、REST API参考、NuGet包以及示例的链接，确保用户依旧能够访问到相关的支持资源。
+
+整体来说，此次更新虽然只涉及一个字符的修改，但增强了文档的准确性，确保用户获取到最新的SDK信息，提升了文档的实用性。
 
 ## articles/ai-services/document-intelligence/quickstarts/includes/javascript-sdk.md{#item-615fcd}
 
@@ -165,266 +242,118 @@ title: Diff Insight Report - misc
 ```json
 {
     "modification_type": "minor update",
-    "modification_title": "JavaScript SDKのサンプルリンクの修正"
+    "modification_title": "更新JavaScript SDK文档中的示例链接"
 }
 ```
 
 ### Explanation
-このコードの変更は、`javascript-sdk.md`ファイルにおけるJavaScript SDKに関連するサンプルリンクの更新を示しています。具体的には、サンプルリンクのパスが変更されており、以前のリンクはバージョン1-betaのサンプルを指していましたが、新しいリンクはバージョン1のサンプルに更新されています。また、クライアントライブラリおよび他のリファレンスリンクには変更がありません。これにより、ユーザーは最新のサンプルコードにアクセスしやすくなり、実装の際の参照として役立つようになっています。この小さな更新は、SDK使用者の利便性向上を目指しています。
+此次代码修改主要更新了JavaScript SDK文档中关于示例链接的内容。在这次更新中，有以下变化：
 
-## articles/ai-services/document-intelligence/service-limits.md{#item-5ceae5}
+1. 修改了示例链接的路径：将原来的示例链接中的版本指向更新为`v1/javascript`，而之前是指向`v1-beta`。这一变化使得用户能够访问到最新的示例代码，确保提供可靠和更新的参考资源。
+2. 其他部分的链接则保持不变，包括客户端库、REST API参考及npm包等链接，确保文档整体的一致性。
 
-<details>
-<summary>Diff</summary>
-````diff
-@@ -7,7 +7,7 @@ author: laujan
- manager: nitinme
- ms.service: azure-ai-document-intelligence
- ms.topic: conceptual
--ms.date: 11/19/2024
-+ms.date: 01/13/2025
- ms.author: lajanuar
- monikerRange: '<=doc-intel-4.0.0'
- ---
-@@ -64,7 +64,7 @@ Document Intelligence billing is calculated monthly based on the model type and
- 
- - Container pricing is the same as cloud service pricing.
- 
--- Document Intelligence offers a free tier (F0) where you can test all the Document Intelligence features.
-+- Document Intelligence offers a free tier (F0) where you can test all the Document Intelligence features. The free tier limits analyze response to only the first two pages in a request.
- 
- - Document Intelligence has a commitment-based pricing model for large workloads.
- 
-@@ -93,7 +93,13 @@ Document Intelligence billing is calculated monthly based on the model type and
- 
- |Quota|Free (F0)<sup>1</sup>|Standard (S0)|
- |--|--|--|
--| **Transactions Per Second limit** | 1 | 15 (default value) |
-+| **Analyze transactions Per Second limit** | 1 | 15 (default value) |
-+| Adjustable | No | Yes <sup>2</sup> |
-+| **Get operations Per Second limit** | 1 | 50 (default value) |
-+| Adjustable | No | Yes <sup>2</sup> |
-+| **Model management operations Per Second limit** | 1 | 5 (default value) |
-+| Adjustable | No | Yes <sup>2</sup> |
-+| **List operations Per Second limit** | 1 | 10 (default value) |
- | Adjustable | No | Yes <sup>2</sup> |
- | **Max document size** | 4 MB | 500 MB |
- | Adjustable | No | No |
-@@ -131,7 +137,7 @@ Document Intelligence billing is calculated monthly based on the model type and
- | Adjustable | No | No |
- | **Max number of pages (Training) * Neural and Generative** | 50,000 | 50,000 (default value) |
- | Adjustable | No | No |
--| **Custom neural model train** | 10 hours per month <sup>5</sup> | no limit (pay by the hour) |
-+| **Custom neural model train** | 10 hours per month <sup>5</sup> | no limit (pay by the hour), start with 10 free hours each month |
- | Adjustable | No |Yes <sup>3</sup>|
- | **Max number of pages (Training) * Classifier** | 10,000 | 10,000 (default value) |
- | Adjustable | No | No |
-@@ -238,9 +244,9 @@ Document Intelligence billing is calculated monthly based on the model type and
- 
- ::: moniker range=">=doc-intel-2.1.0"
- 
--> <sup>1</sup> For **Free (F0)** pricing tier see also monthly allowances at the [pricing page](https://azure.microsoft.com/pricing/details/form-recognizer/).</br>
--> <sup>2</sup> See [best practices](#example-of-a-workload-pattern-best-practice), and [adjustment instructions](#create-and-submit-support-request).</br>
--> <sup>3</sup> Neural models training count is reset every calendar month. Open a support request to increase the monthly training limit.
-+> <sup>1</sup> For **Free (F0)** pricing tier see also monthly allowances at the [pricing page](https://azure.microsoft.com/pricing/details/ai-document-intelligence/).</br>
-+> <sup>2</sup> See [best practices](#example-of-a-workload-pattern-best-practice), and [adjustment instructions](#create-and-submit-support-request-for-tps-increase).</br>
-+> <sup>3</sup> Neural models training count is reset every calendar month. Open a support request to increase the monthly training limit. Starting with the v4.0 API, training requests over 20 requests in a calendar month are billed on the training tier. See [pricing](https://azure.microsoft.com/pricing/details/ai-document-intelligence/) for details.
- ::: moniker-end
- ::: moniker range=">=doc-intel-3.0.0"
- > <sup>4</sup> This limit applies to all documents found in your training dataset folder prior to any labeling-related updates.
-@@ -251,49 +257,40 @@ Document Intelligence billing is calculated monthly based on the model type and
- 
- ## Detailed description, Quota adjustment, and best practices
- 
--Before requesting a quota increase (where applicable), ensure that it's necessary. Document Intelligence service uses autoscaling to bring the required computational resources `on-demand`, keep the customer costs low, and deprovision unused resources by not maintaining an excessive amount of hardware capacity.
-+The default limits can be extended by requesting an increase via a support ticket. Before requesting a quota increase (where applicable), ensure that it's necessary. Document Intelligence service uses autoscaling to bring the required computational resources `on-demand`, keep the customer costs low, and deprovision unused resources by not maintaining an excessive amount of hardware capacity. 
- 
--If your application returns Response Code 429 (*Too many requests*) and your workload is within the defined limits: most likely, the service is scaling up to your demand, but has yet to reach the required scale. Thus the service doesn't immediately have enough resources to serve the request. This state is transient and shouldn't last long.
-+If your application returns Response Code 429 (*Too many requests*) you are over the threshold for one or more of the transactions per second limits (TPS):
-+* **Analyze transactions Per Second limit**  The TPS for submitting analyze requests (POST)
-+* **Get operations Per Second limit** The TPS for polling for results on analyze operations (GET)
-+* **Model management operations Per Second limit** Operations related to  model management like build/train and copy.
-+* **List operations Per Second limit** Operations related to listing models, operations.
- 
- ### General best practices to mitigate throttling during autoscaling
- 
- To minimize issues related to throttling (Response Code 429), we recommend using the following techniques:
- 
- * Implement retry logic in your application
- * Avoid sharp changes in the workload. Increase the workload gradually <br/>
--*Example.* Your application is using Document Intelligence and your current workload is 10 TPS (transactions per second). The next second you increase the load to 40 TPS (that is four times more). The Service immediately starts scaling up to fulfill the new load, but likely it can't do it within a second, so some of the requests get Response Code 429.
-+*Example.* Your application is using Document Intelligence and your current workload is 10 TPS (transactions per second). The next second you increase the load to 40 TPS. The result is a 429 response code for some requests as you are over the 15 TPS limit for submitting analyze operations. You could either back off the processing to stay under the 15 TPS or request an increase on the TPS to support your higher volumes.
- 
- The next sections describe specific cases of adjusting quotas.
--Jump to [Document Intelligence: increasing concurrent request limit](#create-and-submit-support-request)
-+ Jump to [Document Intelligence: increasing concurrent request limit](#create-and-submit-support-request-for-tps-increase)
- 
- ### Increasing transactions per second request limit
- 
- By default the number of transactions per second is limited to 15 transactions per second for a Document Intelligence resource. For the Standard pricing tier, this amount can be increased. Before submitting the request, ensure you're familiar with the material in [this section](#detailed-description-quota-adjustment-and-best-practices) and aware of these [best practices](#example-of-a-workload-pattern-best-practice).
- 
--Increasing the Concurrent Request limit does **not** directly affect your costs. Document Intelligence service uses "Pay only for what you use" model. The limit defines how high the Service can scale before it starts throttle your requests.
-+The fist step would be to enable auto scaling. Follow this document to enable auto scaling on your resource * [enable auto scaling](../../ai-services/autoscale.md). With auto scaling enabled your resource can continue to accept requests over the TPS limits configured if there's capacity on the service. It can still result in request throttled. 
- 
--Existing value of Concurrent Request limit parameter is **not** visible via Azure portal, Command-Line tools, or API requests. To verify the existing value, create an Azure Support Request.
--
--If you would like to increase your transactions per second, you can enable auto scaling on your resource. Follow this document to enable auto scaling on your resource * [enable auto scaling](../../ai-services/autoscale.md). You can also submit an increase TPS support request.
--
--#### Have the required information ready
-+Increasing the Concurrent Request limit does **not** directly affect your costs. Document Intelligence service uses "Pay only for what you use" model. The limit defines how high the Service can scale before it starts throttle your requests.
- 
--- Document Intelligence Resource ID
--- Region
-+The existing value of different request limit categories is available via Azure portal, under the monitoring tab on the resource overview blade.
- 
--- Base model information:
--  - Sign in to the [Azure portal](https://portal.azure.com)
--  - Select the Document Intelligence Resource for which you would like to increase the transaction limit
--  - Select -Properties- (-Resource Management- group)
--  - Copy and save the values of the following fields:
--    - Resource ID
--    - Location (your endpoint Region)
- 
--#### Create and submit support request
-+#### Create and submit support request for TPS increase
- 
- Initiate the increase of transactions per second(TPS) limit for your resource by submitting the Support Request:
- 
--- Ensure you have the [required information](#have-the-required-information-ready)
- - Sign in to the [Azure portal](https://portal.azure.com)
- - Select the Document Intelligence Resource for which you would like to increase the TPS limit
- - Select -New support request- (-Support + troubleshooting- group). A new window appears with autopopulated information about your Azure Subscription and Azure Resource
-@@ -303,16 +300,16 @@ Initiate the increase of transactions per second(TPS) limit for your resource by
- - Proceed further with the request creation
- - Enter the following information in the -Description- field, under the Details tab:
-   - a note, that the request is about Document Intelligence quota.
--  - Provide a TPS expectation you would like to scale to  meet.
--  - Azure resource information you [collected](#have-the-required-information-ready).
-+  - Provide a TPS expectation you would like to scale to  meet. While TPS increases are free, you should only request a TPS that is reasonable for your workload.
-+  - Azure resource information
-   - Complete entering the required information and select -Create- button in -Review + create- tab
-   - Note the support request number in Azure portal notifications. Look for Support to contact you shortly for further processing.
- 
- ## Example of a workload pattern best practice
- 
- This example presents the approach we recommend following to mitigate possible request throttling due to [Autoscaling being in progress](#detailed-description-quota-adjustment-and-best-practices). It isn't an *exact recipe*, but merely a template we invite to follow and adjust as necessary.
- 
-- Let us suppose that a Document Intelligence resource has the default limit set. Start the workload to submit your analyze requests. If you find that you're seeing frequent throttling with response code 429, start by implementing an exponential backoff on the GET analyze response request. By using a progressively longer wait time between retries for consecutive error responses, for example a  2-5-13-34 pattern of delays between requests. In general, we recommended not calling the get analyze response more than once every 2 seconds for a corresponding POST request.
-+ Let us suppose that a Document Intelligence resource has the default limit set. Start the workload to submit your analyze requests. If you find that you're seeing frequent throttling with response code 429 when checking for completion, start by implementing an exponential backoff on the GET analyze response request. By using a progressively longer wait time between retries for consecutive error responses, for example a  2-5-13-34 pattern of delays between requests. In general, we recommended not calling the get analyze response more than once every 2 seconds for a corresponding POST request. The `analyze` response also contains a **retry-after** header that indicates how long you should wait in seconds before checking for completion of that request. 
- 
- If you find that you're being throttled on the number of POST requests for documents being submitted, consider adding a delay between the requests. If your workload requires a higher degree of concurrent processing, you then need to create a support request to increase your service limits on transactions per second.
- 
-@@ -321,4 +318,4 @@ Generally, we recommended testing the workload and the workload patterns before
- ## Next steps
- 
- > [!div class="nextstepaction"]
--> [Learn about error codes and troubleshooting](v3-error-guide.md)
-+> [Learn about error codes and troubleshooting](v3-error-guide.md)
-\ No newline at end of file
-````
-</details>
-
-### Summary
-
-```json
-{
-    "modification_type": "minor update",
-    "modification_title": "サービス制限に関するドキュメントの改訂"
-}
-```
-
-### Explanation
-このコードの変更は、`service-limits.md`ファイルにおけるDocument Intelligenceに関連するサービス制限に関する情報の更新を示しています。主な改善点は、以下の通りです：
-
-1. ドキュメントの日付が2024年11月19日から2025年1月13日に更新されました。
-2. 無料利用枠(F0)に関する説明が強化され、リクエストあたりの分析応答が最初の2ページに制限されることが明記されました。
-3. 各パフォーマンス指標（例えば、「Analyze transactions Per Second limit」や「Get operations Per Second limit」など）の種類や詳細が明確にし、調整可能なオプションについての情報が追加されました。
-4. サポートリクエストを介してTPS（transactions per second）の増加を要求する手順が明確化され、リクエストの際に必要な情報が整理されています。
-
-これらの変更により、ユーザーはDocument Intelligenceの利用制限をよりよく理解できるようになり、効率的にサービスを活用するためのサポートを得やすくなっています。
+整体而言，此次更新虽然只涉及到链接的微小调整，但它提升了文档的可靠性和实用性，使得用户能够更方便地找到最新的开发资源。
 
 ## articles/ai-services/document-intelligence/train/custom-neural.md{#item-ac0e69}
 
 <details>
 <summary>Diff</summary>
 ````diff
-@@ -21,7 +21,7 @@ monikerRange: '>=doc-intel-3.0.0'
+@@ -6,7 +6,7 @@ author: laujan
+ manager: nitinme
+ ms.service: azure-ai-document-intelligence
+ ms.topic: conceptual
+-ms.date: 11/19/2024
++ms.date: 01/14/2025
+ ms.author: lajanuar
+ ms.custom:
+   - references_regions
+@@ -20,8 +20,7 @@ monikerRange: '>=doc-intel-3.0.0'
+ 
  # Document Intelligence custom neural model
  
- 
+-
 -
 +:::moniker range="doc-intel-4.0.0"
  **This content applies to:**![checkmark](../media/yes-icon.png) **v4.0 (GA)** | **Previous versions:** ![blue-checkmark](../media/blue-yes-icon.png) [**v3.1 (GA)**](?view=doc-intel-3.1.0&preserve-view=tru) ![blue-checkmark](../media/blue-yes-icon.png) [**v3.0 (GA)**](?view=doc-intel-3.0.0&preserve-view=tru)
  ::: moniker-end
  
-@@ -45,7 +45,7 @@ Custom neural models share the same labeling format and strategy as [custom temp
+@@ -45,7 +44,7 @@ Custom neural models share the same labeling format and strategy as [custom temp
  ## Model capabilities
  
   > [!IMPORTANT]
-- > Custom neural v4.0 2024-11-30 (GA) model supports overlapping fields and table cell confidence.
-+ > Custom neural v4.0 `2024-11-30` (GA) model supports overlapping fields and table cell confidence.
+- > Custom neural v4.0 `2024-11-30` (GA) model supports overlapping fields and table cell confidence.
++ > Custom neural v4.0 `2024-11-30` (GA) model supports signature detection, table cell confidence, and overlapping fields.
  
  Custom neural models currently support key-value pairs and selection marks and structured fields (tables).
  
-@@ -64,7 +64,7 @@ Neural models support documents that have the same information, but different pa
+@@ -62,22 +61,9 @@ The `Build` operation supports *template* and *neural* custom models. Previous v
  
- ### Overlapping fields
+ Neural models support documents that have the same information, but different page structures. Examples of these documents include United States W2 forms, which share the same information, but can vary in appearance across companies. For more information, *see* [Custom model build mode](custom-model.md#build-mode).
  
--Custom neural v4.0 2024-11-30 (GA) model supports overlapping fields:
-+Custom neural v4.0 `2024-11-30` (GA) model supports overlapping fields:
+-### Overlapping fields
+-
+-Custom neural v4.0 `2024-11-30` (GA) model supports overlapping fields:
++### Signature detection
  
- To use the overlapping fields, your dataset needs to contain at least one sample with the expected overlap. To label an overlap, use **region labeling** to designate each of the spans of content (with the overlap) for each field. Labeling an overlap with field selection (highlighting a value) fails in the Studio as region labeling is the only supported labeling tool for indicating field overlaps. Overlap support includes:
+-To use the overlapping fields, your dataset needs to contain at least one sample with the expected overlap. To label an overlap, use **region labeling** to designate each of the spans of content (with the overlap) for each field. Labeling an overlap with field selection (highlighting a value) fails in the Studio as region labeling is the only supported labeling tool for indicating field overlaps. Overlap support includes:
+-
+-* Complete overlap. The same set of tokens are labeled for two different fields.
+-* Partial overlap. Some tokens belong to both fields, but there are tokens that are only part of one field or the other.
+-
+-Overlapping fields have some limits:
+-
+-* Any token or word can only be labeled as two fields.
+-* overlapping fields in a table can't span table rows.
+-* Overlapping fields can only be recognized if at least one sample in the dataset contains overlapping labels for those fields.
+-
+-To use overlapping fields, label your dataset with the overlaps and train the model with the API version ``**2024-11-30 (GA)**``.
++Custom neural v4.0 2024-11-30 (GA) model supports signature detection. To label a signature, use field type as Signature and draw the regions for signature. Signature field only supports one draw region per field.
  
-@@ -294,9 +294,9 @@ POST https://{endpoint}/documentintelligence/documentModels:build?api-version=20
+ ## Tabular fields
  
- > [!IMPORTANT]
- >
--> * If you would like to train additional neural models or train models for a longer time period that **exceed 10 hours**, billing charges apply. For details on the billing charges, refer to the [pricing page](https://azure.microsoft.com/pricing/details/ai-document-intelligence/).
--> * You can opt in for this paid training service by setting the `maxTrainingHours` to the desired maximum number of hours. API calls with no budget but with the `maxTrainingHours` set as over 10 hours will fail.
--> * As each build takes different amount of time depending on the type and size of the training dataset, billing is calculated for the actual time spent training the neural model, with a minimum of 30 minutes per training job.
-+> * If you would like to train more neural models or train models for a longer time period that **exceed 10 hours**, billing charges apply. For details on the billing charges, refer to the [pricing page](https://azure.microsoft.com/pricing/details/ai-document-intelligence/).
-+> * You can opt in for this paid training service by setting the `maxTrainingHours` to the desired maximum number of hours. API calls with no budget but with the `maxTrainingHours` set to over 10 hours fail.
-+> * Each build takes a different amount of time depending on the type and size of the training dataset. Billing is calculated for the actual time spent training the neural model with a minimum of 30 minutes per training job.
- > * This paid training feature enables you to train larger data sets for longer durations with flexibility in the training hours.
+@@ -94,7 +80,7 @@ Tabular fields support **cross page tables** by default:
  
- ```bash
-@@ -311,19 +311,19 @@ GET /documentModels/{myCustomModel}
- ```
+ Tabular fields are also useful when extracting repeating information within a document that isn't recognized as a table. For example, a repeating section of work experiences in a resume can be labeled and extracted as a tabular field.
  
- > [!NOTE]
--> For Document Intelligence versions `v3.1 (2023-07-31)` and `v3.0 (2022-08-31)`, custom neural model's paid training is not enabled. For the two older versions, you will get a maximum of 30 minutes training duration per model. If you would like to train more than 20 model instances, you can create an [Azure support ticket](../service-limits.md#create-and-submit-support-request) to increase in the training limit.
-+> For Document Intelligence versions `v3.1 (2023-07-31)` and `v3.0 (2022-08-31)`, custom neural model's paid training isn't enabled. For the two older versions, there's a maximum of 30-minutes training duration per model. If you would like to train more than 20 model instances, you can create an [Azure support ticket](../service-limits.md#create-and-submit-support-request-for-tps-increase) to increase in the training limit.
+-Tabular fields provide **table, row and cell confidence** with the ``**2024-11-30 (GA)**`` API:
++Tabular fields provide **table, row and cell confidence** with the `2024-11-30 (GA)` API:
  
- :::moniker-end
+ * Fixed or dynamic tables add confidence support for the following elements:
+   * Table confidence, a measure of how accurately the entire table is recognized.
+@@ -103,6 +89,23 @@ Tabular fields provide **table, row and cell confidence** with the ``**2024-11-3
  
- :::moniker range="doc-intel-3.1.0"
+ * The recommended approach is to review the accuracy in a top-down manner starting with the table first, followed by the row and then the cell. See  [confidence and accuracy scores](../concept/accuracy-confidence.md) to learn more about table, row, and cell confidence.
  
- ## Billing
++### Overlapping fields
++
++Custom neural v4.0 2024-11-30 (GA) model supports overlapping fields:
++
++To use the overlapping fields, your dataset needs to contain at least one sample with the expected overlap. To label an overlap, use **region labeling** to designate each of the spans of content (with the overlap) for each field. Labeling an overlap with field selection (highlighting a value) fails in the Studio as region labeling is the only supported labeling tool for indicating field overlaps. Overlap support includes:
++
++* Complete overlap. The same set of tokens are labeled for two different fields.
++* Partial overlap. Some tokens belong to both fields, but there are tokens that are only part of one field or the other.
++
++Overlapping fields have some limits:
++
++* Any token or word can only be labeled as two fields.
++* overlapping fields in a table can't span table rows.
++* Overlapping fields can only be recognized if at least one sample in the dataset contains overlapping labels for those fields.
++
++To use overlapping fields, label your dataset with the overlaps and train the model with the API version ``**2024-11-30 (GA)**``.
++
+ ### Supported languages and locales
  
--For Document Intelligence versions `v3.1 (2023-07-31) and v3.0 (2022-08-31)`, you receive a maximum 30 minutes of training duration per model, and a maximum of 20 trainings for free per month. If you would like to train more than 20 model instances, you can create an [Azure support ticket](../service-limits.md#create-and-submit-support-request) to increase in the training limit. For Azure support ticket, enter in the `summary` field: `Increase Document Intelligence custom neural training (TPS) limit`. 
-+For Document Intelligence versions `v3.1 (2023-07-31) and v3.0 (2022-08-31)`, you receive a maximum 30 minutes of training duration per model, and a maximum of 20 trainings for free per month. If you would like to train more than 20 model instances, you can create an [Azure support ticket](../service-limits.md#create-and-submit-support-request-for-tps-increase) to increase in the training limit. For Azure support ticket, enter in the `summary` field: `Increase Document Intelligence custom neural training (TPS) limit`. 
+ *See* our [Language Support—custom models](../language-support/custom.md#custom-neural) for a complete list of supported languages.
+@@ -203,7 +206,7 @@ Custom neural models differ from custom template models in a few different ways.
  
- > [!IMPORTANT]
- >
--> * When increasing the training limit, note that 2 custom neural model training sessions will be considered as 1 training hour. For more information on the pricing for increasing the number of training sessions, *see** the [pricing page](https://azure.microsoft.com/pricing/details/ai-document-intelligence/).
-+> * When you increase the training limit, two custom neural model training sessions is considered as one training hour. For more information on the pricing for increasing the number of training sessions, *see** the [pricing page](https://azure.microsoft.com/pricing/details/ai-document-intelligence/).
- > * Azure support ticket for training limit increase can only apply at a **resource-level**, not a subscription level. You can request a training limit increase for a single Document Intelligence resource by specifying your resource ID and region in the support ticket.
+ * Custom neural model doesn't recognize values split across page boundaries.
+ * Custom neural unsupported field types are ignored if a dataset labeled for custom template models is used to train a custom neural model.
+-* Custom neural models are limited to 20 build operations per month. Open a support request if you need the limit increased. For more information, see [Document Intelligence service quotas and limits](../service-limits.md).
++* Custom neural models are limited to 20 build operations per month for versions 3.x. Open a support request if you need the limit increased. For more information, see [Document Intelligence service quotas and limits](../service-limits.md).
  
- If you want to train models for longer durations than 30 minutes, we support **paid training** with version `v4.0 2024-11-30 (GA)`. Using the latest version, you can train your model for a longer duration to process larger documents. For more information about paid training, *see* [Billing v4.0](../service-limits.md#billing).
-@@ -334,11 +334,11 @@ If you want to train models for longer durations than 30 minutes, we support **p
+ ## Training a model
  
- ## Billing
- 
--For Document Intelligence versions `v3.1 (2023-07-31) and v3.0 (2022-08-31)`, you receive a maximum 30 minutes of training duration per model, and a maximum of 20 trainings for free per month. If you would like to train more than 20 model instances, you can create an [Azure support ticket](../service-limits.md#create-and-submit-support-request) to increase in the training limit. For Azure support ticket, enter in the `summary` field: `Increase Document Intelligence custom neural training (TPS) limit`. 
-+For Document Intelligence versions `v3.1 (2023-07-31) and v3.0 (2022-08-31)`, you receive a maximum 30 minutes of training duration per model, and a maximum of 20 trainings for free per month. If you would like to train more than 20 model instances, you can create an [Azure support ticket](../service-limits.md#create-and-submit-support-request-for-tps-increase) to increase in the training limit. For Azure support ticket, enter in the `summary` field: `Increase Document Intelligence custom neural training (TPS) limit`. 
- 
- > [!IMPORTANT]
- >
--> * When increasing the training limit, note that 2 custom neural model training sessions will be considered as 1 training hour. For more information on the pricing for increasing the number of training sessions, *see* the [pricing page](https://azure.microsoft.com/pricing/details/ai-document-intelligence/).
-+> * When you increase the training limit, two custom neural model training sessions is considered as one training hour. For more information on the pricing for increasing the number of training sessions, *see* the [pricing page](https://azure.microsoft.com/pricing/details/ai-document-intelligence/).
- > * Azure support ticket for training limit increase can only apply at a **resource-level**, not a subscription level. You can request a training limit increase for a single Document Intelligence resource by specifying your resource ID and region in the support ticket.
- 
- If you want to train models for longer durations than 30 minutes, we support **paid training** with our newest version, `v4.0 (2024-11-30)`. Using the latest version, you can train your model for a longer duration to process larger documents. For more information about paid training, *see* [Billing v4.0](../service-limits.md#billing).
 ````
 </details>
 
@@ -433,22 +362,21 @@ title: Diff Insight Report - misc
 ```json
 {
     "modification_type": "minor update",
-    "modification_title": "カスタムニューラルモデルに関するドキュメントの更新"
+    "modification_title": "更新自定义神经模型文档以增加新功能说明"
 }
 ```
 
 ### Explanation
-このコードの変更は、`custom-neural.md`ファイルにおけるDocument Intelligenceのカスタムニューラルモデルに関する情報の更新を示しています。主な内容は以下の通りです。
+此次代码修改对自定义神经模型文档进行了更新，增强了特性说明并进行了格式调整。主要变更包括：
 
-1. **モニカーの追加**: 新バージョン「doc-intel-4.0.0」に対応するコンテンツが追加され、ユーザーがこのバージョンの特徴を認識しやすくなっています。
+1. **日期更新**：文档中的版本日期从`11/19/2024`更改为`01/14/2025`，这反映了文档内容的更新和版本的进展。
+2. **功能更新**：
+   - 添加了对**签名检测**功能的描述，说明如何标记签名区域以及该功能的局限性。
+   - 对**重叠字段**的部分进行了重新组织和描述，确保信息的清晰和准确。
+3. **改进文档结构**：通过引入新的分段和标题，更好地结构化文档内容，使用户更容易查找信息。
+4. **模型能力更新**：说明了自定义神经模型在新版本（v4.0）中所支持的功能，包括支持重叠字段、表格单元格的置信度等。
 
-2. **重要な情報の強調**: カスタムニューラル v4.0モデルがサポートする機能に関する重要な情報がメッセージとして強調され、過去のバージョンとの比較が明確になりました。
-
-3. **トレーニングに関する料金の明確化**: トレーニング料金に関する説明が整理され、10時間を超えるトレーニングに料金が発生することが具体的に説明されています。トレーニングのセッション数や請求方法についての情報も更新され、ユーザーが料金設定を理解しやすくなっています。
-
-4. **サポートリクエストの指示変更**: トレーニングの制限を増やすためのAzureサポートリクエストに関する指示が更新され、特定のリソースに対してリクエストを行う手順が強調されました。
-
-これらの変更により、ユーザーがカスタムニューラルモデルの機能や制限をよりよく理解し、効果的にサービスを活用できるようになっています。
+此次更新使文档更加全面和详细，确保用户能够获得最新的信息和指导，以充分利用自定义神经模型的功能。
 
 ## articles/ai-services/document-intelligence/versioning/changelog-release-history.md{#item-dccdd3}
 
@@ -490,20 +418,19 @@ title: Diff Insight Report - misc
 ```json
 {
     "modification_type": "minor update",
-    "modification_title": "リリース履歴ドキュメントのリンク修正"
+    "modification_title": "更新文档以修正链接指向"
 }
 ```
 
 ### Explanation
-このコードの変更は、`changelog-release-history.md`ファイルのリンクに関する修正を示しています。具体的には、以下の3つのリンクが更新されています：
+此次代码修改对文档的链接进行了小幅更新，确保指向的内容更为准确。这些修改包括：
 
-1. **Azure SDK for .NET**: 古いリンクから新しいリンクに変更され、より正確なAPIリファレンスへのアクセスを提供しています。リンクは `/dotnet/api/overview/azure/cognitiveservices/documentintelligence?view=azure-dotnet&preserve-view=true` から `/dotnet/api/azure.ai.documentintelligence?view=azure-dotnet&preserve-view=true` に変更されました。
+1. **.NET SDK链接更新**：将Azure SDK for .NET的部分链接从舊的格式`/dotnet/api/overview/azure/cognitiveservices/documentintelligence?view=azure-dotnet&preserve-view=true`，更新为新的格式`/dotnet/api/azure.ai.documentintelligence?view=azure-dotnet&preserve-view=true`，使其更加符合当前的文档结构。
+2. **示例链接更新**：
+   - 将示例链接从`samples/v1-beta`修正为`samples/v1/javascript`，确保用户能够访问到最新的示例代码。
+   - 这种修改同样适用于文档中其他相关位置，确保一致性和准确性。
 
-2. **JavaScriptサンプル**: JavaScript SDKのサンプルリンクが、バージョンの指定が更新され、`/samples/v1-beta`から`/samples/v1/javascript`に変更されました。これにより、最新のサンプルコードへの導線が明確にされています。
-
-3. **他の部分でのサンプルリンク更新**: 他の関連するセクションでもサンプルリンクが同様に更新され、これにより一貫性が保たれています。
-
-全体として、これらの変更はドキュメントの正確性を向上させ、ユーザーが必要な情報により簡単にアクセスできるようにすることを目的としています。
+这一系列的修改虽然较小，但旨在提高文档的准确性和用户的查找体验，使用户能够更方便地获取到最新的SDK和示例内容。
 
 ## articles/ai-services/document-intelligence/versioning/sdk-overview-v4-0.md{#item-d59a82}
 
@@ -527,18 +454,122 @@ title: Diff Insight Report - misc
 ```json
 {
     "modification_type": "minor update",
-    "modification_title": "SDK概要ドキュメントのリンク修正"
+    "modification_title": "更新文档中的链接格式"
 }
 ```
 
 ### Explanation
-このコードの変更は、`sdk-overview-v4-0.md`ファイル内のSDKに関するリンクの修正を示しています。主に、以下の点が更新されています：
+此次代码更新对文档中的链接进行了小幅修改，以确保链接的准确性。这些变更包括：
 
-1. **.NET/C# SDKのリンク更新**: 以前のリンクであった `/dotnet/api/overview/azure/cognitiveservices/documentintelligence?view=azure-dotnet&preserve-view=true` から、より適切な新しいリンク `/dotnet/api/azure.ai.documentintelligence?view=azure-dotnet&preserve-view=true` に変更されました。これにより、ユーザーは最新のAPIリファレンスにアクセスしやすくなります。
+1. **.NET语言部分链接更新**：在“Document Intelligence SDK”版本支持表中，将指向.NET/C#的API链接从旧的`/dotnet/api/overview/azure/cognitiveservices/documentintelligence?view=azure-dotnet&preserve-view=true`更新为新的格式`/dotnet/api/azure.ai.documentintelligence?view=azure-dotnet&preserve-view=true`，使链接结构更为清晰和一致。
+   
+2. **整体结构保持不变**：此次修改未改变文档的整体内容或结构，仅对链接进行了更新，以反映最新的API文档地址。
 
-2. **全体の一貫性**: その他のプラットフォームに関するリンクは変更されていませんが、全体として一貫性を保つために、SDKおよびAPIバージョン情報の表示が統一されています。
+这项小的更新提高了文档的可用性，确保用户能够访问到准确和最新的开发文档。这样做不仅改善了用户的查找体验，也有助于避免由于链接问题导致的混淆。
 
-この変更は、ユーザーがSDKの使用に関する情報を迅速に見つけ、最新のリファレンスを参照できるようにすることを目的としています。
+## articles/ai-services/document-intelligence/whats-new.md{#item-1ec8d3}
+
+<details>
+<summary>Diff</summary>
+````diff
+@@ -6,7 +6,7 @@ author: laujan
+ manager: nitinme
+ ms.service: azure-ai-document-intelligence
+ ms.topic: whats-new
+-ms.date: 12/17/2024
++ms.date: 01/14/2025
+ ms.author: lajanuar
+ ms.custom:
+   - references_regions
+@@ -25,11 +25,11 @@ ms.custom:
+ Document Intelligence service is updated on an ongoing basis. Bookmark this page to stay up to date with release notes, feature enhancements, and our newest documentation.
+ 
+ > [!IMPORTANT]
+-> Preview API versions are retired once the GA API is released. The 2023-02-28-preview API version is being retired, if you are still using the preview API or the associated SDK versions, please update your code to target the latest API version 2024-11-30 (GA). </br>
++> Preview API versions are retired once the GA API is released. The 2023-02-28-preview API version is retiring. If you're still using the preview API or the associated SDK versions, update your code to target the latest API version `2024-11-30 (GA)`. </br>
+ 
+ ## December 2024
+ 
+-**Document Intelligence v4.0 programming language SDKs are now generally available (GA)**! <br><br>The latest client SDKs default to the [**2024-11-30 REST API (GA)**](/rest/api/aiservices/operation-groups?view=rest-aiservices-v4.0%20(2024-11-30)&preserve-view=true) version of the service.<br><br>
++**Document Intelligence v4.0 programming language SDKs are now generally available (GA)**! <br><br>The latest client libraries default to the [**2024-11-30 REST API (GA)**](/rest/api/aiservices/operation-groups?view=rest-aiservices-v4.0%20(2024-11-30&preserve-view=true) version of the service.<br><br>
+ For more information, *see* client libraries for the following supported programming languages:
+ 
+ * [🆕 .NET (C#)](versioning/changelog-release-history.md?view=doc-intel-4.0.0&tabs=csharp&preserve-view=true)
+@@ -53,12 +53,13 @@ For more information, *see* client libraries for the following supported program
+ * 🆕 Searchable PDF. The [prebuilt read](prebuilt/read.md) model now supports images formats (JPEG/JPG, PNG, BMP, TIFF, HEIF)  and language expansion to include Chinese, Japanese, and Korean for  [PDF output](prebuilt/read.md#searchable-pdf).
+  
+ * [Custom classification model](train/custom-model.md#custom-classification-model)
+-  * Custom classification model supports incremental training. You can add new samples to exisisting classes or add new classes by referencing an existing classifier. 
++  * Custom classification model supports incremental training. You can add new samples to existing classes or add new classes by referencing an existing classifier. 
+   * With v4.0, custom classification model doesn't split documents by default during analysis. You need to explicitly set 'splitMode' property to auto to preserve the older behavior.
+   * Custom classification model now supports 25,000 pages as new training page limit.
+ 
+ * [Custom Neural Model](train/custom-neural.md)
+   * Custom Neural model now supports signature detection.
++  * Custom neural models support paid training for longer duration when you need to train model with a larger labeled dataset. The first 20 training runs in a calendar month continue to be free. Any training operations over 20 is on the paid tier. Learn more details on [billing](train/custom-neural.md#billing).
+ 
+ * [ US Bank statement model](concept-bank-statement.md)
+   * US Bank Statement Model now supports check table extraction.
+@@ -221,14 +222,13 @@ The Document Intelligence [**2023-10-31-preview**](/rest/api/aiservices/document
+   * Add-on capabilities are available within all models excluding the [Read model](prebuilt/read.md).
+ 
+ >[!NOTE]
+-> With the 2022-08-31 API general availability (GA) release, the associated preview APIs are being deprecated. If you are using the 2021-09-30-preview, the 2022-01-30-preview or he 2022-06-30-preview API versions, please update your applications to target the 2022-08-31 API version. There are a few minor changes involved, for more information, _see_ the [migration guide](v3-1-migration-guide.md).
++> With the 2022-08-31 API general availability (GA) release, the associated preview APIs are being deprecated. If you're using the 2021-09-30-preview, 2022-01-30-preview, or 2022-06-30-preview API versions, update your applications to target the 2022-08-31 API version. There are a few minor changes involved, for more information, _see_ the [migration guide](v3-1-migration-guide.md).
+ 
+ ## July 2023
+ 
+ > [!NOTE]
+ > Form Recognizer is now **Azure AI Document Intelligence**!
+ >
+-> * Document, Azure AI services encompass all of what were previously known as Cognitive Services and Azure Applied AI Services.
+ > * There are no changes to pricing.
+ > * The names *Cognitive Services* and *Azure Applied AI* continue to be used in Azure billing, cost analysis, price list, and price APIs.
+ > * There are no breaking changes to application programming interfaces (APIs) or client libraries.
+@@ -265,7 +265,7 @@ The v3.1 API introduces new and updated capabilities:
+     :::image type="content" source="media/studio/analyze-options.gif" alt-text="Animated screenshot showing use of the analyze-options button to configure options in Studio.":::
+ 
+     > [!NOTE]
+-    > Font extraction is not visualized in Document Intelligence Studio. However, you can check the styles section of the JSON output for the font detection results.
++    > Font extraction isn't visualized in Document Intelligence Studio. However, you can check the styles section of the JSON output for the font detection results.
+ 
+ ✔️ **Auto labeling documents with prebuilt models or one of your own models**
+ 
+@@ -496,7 +496,7 @@ The v3.1 API introduces new and updated capabilities:
+ ## September 2022
+ 
+ >[!NOTE]
+-> Starting with version 4.0.0, a new set of clients has been introduced to leverage the newest features of the Document Intelligence service.
++> Starting with version 4.0.0, a new set of clients is introduced to apply the newest features of the Document Intelligence service.
+ 
+ **SDK version 4.0.0 GA release includes the following updates:**
+ 
+````
+</details>
+
+### Summary
+
+```json
+{
+    "modification_type": "minor update",
+    "modification_title": "更新文档以反映最新功能和日期"
+}
+```
+
+### Explanation
+此次代码修改对文档进行了小幅更新，以反映最新的功能和发布时间。这些主要变更包括：
+
+1. **日期更新**：文档中的日期从`12/17/2024`更新为`01/14/2025`，确保信息的时效性。
+
+2. **API版本说明修改**：在关于预览API版本的提示中，将"the 2023-02-28-preview API version is being retired"修改为"the 2023-02-28-preview API version is retiring."，使表述更加准确流畅。
+
+3. **术语更新**：将“SDKs”改为“client libraries”，更准确地描述了SDK的含义。
+
+4. **特性说明增强**：
+   - 增加了关于自定义神经模型的训练付费方式说明，标明前20次训练为免费的细节。
+   - 小范围的语法和格式调整，使文字表达更加清晰连贯，例如修正了“existing”拼写错误为“existing”。
+
+这些修改增强了文档的准确性和可读性，确保用户获取到最新的信息和功能说明，促进了阅读体验。
 
 ## articles/ai-studio/concepts/model-lifecycle-retirement.md{#item-f0fc21}
 
@@ -575,20 +606,20 @@ title: Diff Insight Report - misc
 ```json
 {
     "modification_type": "minor update",
-    "modification_title": "モデルライフサイクル廃止に関するドキュメントの更新"
+    "modification_title": "更新模型生命周期文档以反映最新信息"
 }
 ```
 
 ### Explanation
-このコードの変更は、`model-lifecycle-retirement.md`ファイルの内容に対する修正を示しています。主に以下の点が更新されています：
+此次代码修改对模型生命周期文档进行了小幅更新，以确保其内容的时效性和准确性。主要更新包括：
 
-1. **日付の更新**: `ms.date`フィールドの日付が、2024年11月22日から2025年1月14日に変更されています。これにより、ドキュメントの日付が最新のものになるよう調整されています。
+1. **日期更新**：文档中的日期从`11/22/2024`更新为`1/14/2025`，保持文档信息的最新状态。
 
-2. **モデル提供者とモデル情報の追加**: 新たに、Mistral AIのモデル情報が追加され、`Mistral-large-2407`およびその代替モデル`Mistral-large-2411`についての詳細が記載されています。これには、レガシー日、廃止日、退役日、及び代替モデルが含まれています。
+2. **添加新模型信息**：在模型信息表中新增了Mistral AI的模型`Mistral-large-2407`，包括其遗留日期、弃用日期、退休日期以及建议替代模型链接。这确保用户能够获取到最新的模型数据和替代建议。
 
-3. **関連コンテンツの更新**: 最後のセクションにおいて、関連コンテンツのリストが整理され、改行が追加されることで可読性が向上しました。
+3. **格式调整**：在相关内容部分，调整了列表的格式，确保没有多余的空行，并保持文档整体结构的整洁。
 
-これにより、モデルライフサイクルに関する理解が深まり、ユーザーは今後のモデルの廃止とその代替についての情報にアクセスしやすくなります。全体的には、ユーザーに対する情報の透明性と整理が強化されています。
+这些修改增强了文档的准确性和实用性，帮助用户理解不同模型的生命周期状态及其替代方案，从而提高了用户体验。
 
 ## articles/ai-studio/how-to/deploy-models-gretel-navigator.md{#item-2e9806}
 
@@ -1148,24 +1179,28 @@ title: Diff Insight Report - misc
 ```json
 {
     "modification_type": "new feature",
-    "modification_title": "Gretel NavigatorチャットモデルをAzure AI Foundryで使用する方法を追加"
+    "modification_title": "新增使用Gretel Navigator聊天模型的部署指南"
 }
 ```
 
 ### Explanation
-このコードの変更は、`deploy-models-gretel-navigator.md`という新しいドキュメントを追加したことを示しています。このドキュメントは、Gretel NavigatorチャットモデルをAzure AI Foundry環境で使用する方法について詳述しています。
+此代码修改添加了一篇新的文档，详细介绍了如何将Gretel Navigator聊天模型与Azure AI Foundry结合使用。文档包含以下关键内容：
 
-1. **ドキュメントの目的**: このガイドでは、Gretel Navigatorのチャットモデルがどのように機能し、どのようなユースケースに適しているかを解説しています。特に、合成データ生成のための使用に重点を置いています。
+1. **文档结构及元数据**：新文档包含标题、描述、作者和日期等元数据，确保内容的易于理解和归档。
 
-2. **モデルの展開**: ユーザーがGretel NavigatorモデルをサーバーレスAPIとして展開する手順や、必要な前提条件（Python環境や認証情報など）について詳細が記載されています。これにより、デプロイメントの管理が容易になります。
+2. **Gretel Navigator聊天模型概述**：对Gretel Navigator的功能进行了介绍，强调其通过复合AI架构生成高质量合成数据的能力。模型支持多种用例，如合成数据生成、评估数据集创建和敏感信息模拟等。
 
-3. **APIの使い方**: ドキュメント内には、APIを通じてモデルの機能にアクセスするための具体的なコード例が多数含まれており、ユーザーが実際にGretel Navigatorを利用するための実践的なガイドラインが提供されています。
+3. **先决条件和部署**：说明了使用Gretel Navigator的先决条件，包括如何将模型部署为无服务器API，确保用户能够快速入门并集成到其服务中。
 
-4. **内容の安全性**: Azure AI内容の安全性に関連する情報も説明されており、潜在的に有害なコンテンツを防ぐ方法についての注意喚起があります。
+4. **客户端创建和使用**：提供了使用Python和REST客户端与模型进行交互的代码示例，说明了如何创建客户端、获取模型信息以及创建聊天完成请求。
 
-5. **関連情報**: 最後に、このドキュメントでは、関連するコンテンツやリソースへのリンクが提供されており、ユーザーがさらなる情報を得やすいよう配慮されています。
+5. **内容安全和参数设置**：介绍了如何使用Azure AI内容安全功能来过滤输出内容，并提供了如何使用更多参数和设置来优化模型调用的示例。
 
-この新しいドキュメント追加により、Azure AI FoundryでGretel Navigatorを効果的に活用するための決定的なリソースが提供され、ユーザーの利便性が高まります。
+6. **费用和配额考量**：解释了使用Gretel模型作为无服务器API时的费用和配额管理，使用户能有效规划其预算。
+
+7. **相关内容链接**：文末提供了与文档相关的其他资源和链接，方便用户进一步学习和探索。
+
+通过这篇新文档，用户能够全面了解如何有效利用Gretel Navigator模型进行AI数据生成与处理，极大增强了Azure AI Foundry的使用价值和功能。
 
 ## articles/ai-studio/how-to/model-catalog-overview.md{#item-278001}
 
@@ -1202,20 +1237,22 @@ title: Diff Insight Report - misc
 ```json
 {
     "modification_type": "minor update",
-    "modification_title": "モデルカタログの更新"
+    "modification_title": "更新模型目录概览文档"
 }
 ```
 
 ### Explanation
-このコードの変更は、`model-catalog-overview.md`ファイルに対する修正を示しています。このドキュメントでは、さまざまなAIモデルの利用可能性について説明されています。主な変更点は以下の通りです：
+此次修改对模型目录概览文档进行了小幅更新，主要内容包括：
 
-1. **モデルの追加**: 新しいモデルとして「Gretel」や「Healthcare AI」ファミリーのモデルが追加され、これに関連する情報が記載されています。これにより、ユーザーはGretel Navigatorなどの新しい選択肢を閲覧できるようになります。
+1. **模型列表的补充**：新增了Gretel模型的相关信息，特别是Gretel-Navigator模型。在之前的模型列表中，该模型尚未列出，现在提供了更为全面的模型信息。
 
-2. **モデル情報の整備**: `Mistral`ファミリーのモデルのリストが整理されており、具体的なモデル名が明示されています。この整備により、どのモデルがどのサービスで使用できるかが一目で分かるようになっています。
+2. **修改数据表格**：对不同模型类别（如Mistral、Cohere、Healthcare AI、JAIS等）进行了数据的添加和调整，以确保信息的准确性和完整性。
 
-3. **一貫性の向上**: データのフォーマットや配置が改善され、全体的に可読性が向上しました。また、特定のモデルに対する情報が明確に区分されているため、ユーザーは必要な情報を迅速に見つけられるようになっています。
+3. **修正语法和排版**：在列表格式和排版上进行了细微的调整，使得信息呈现更加清晰易读。
 
-これらの変更により、ドキュメントが最新のモデル情報を反映し、使用者にとってより有用なリソースとなっています。特に、新たに追加されたモデルは、ユーザーが自分のニーズに合ったAIソリューションを選択する際の助けとなるでしょう。
+4. **删除过时信息**：移除了一些不再适用或不够准确的条目，以提高文档的整体质量。
+
+通过这些改善，用户可以更方便地查阅到最新的模型信息，从而提升使用Azure AI Foundry的体验。这个更新反映了对用户需求的及时回应，确保文档与时俱进。
 
 ## articles/ai-studio/includes/region-availability-maas.md{#item-35d79c}
 
@@ -1319,22 +1356,24 @@ title: Diff Insight Report - misc
 ```json
 {
     "modification_type": "minor update",
-    "modification_title": "モデルの提供地域の更新"
+    "modification_title": "更新区域可用性文档以包括Gretel模型"
 }
 ```
 
 ### Explanation
-このコードの変更は、`region-availability-maas.md`ファイルに対する修正を示しています。このドキュメントでは、さまざまなAIモデルの提供地域に関する情報が更新されています。主な変更点は以下の通りです：
+此次对区域可用性文档的修改主要包括以下内容：
 
-1. **Gretelモデルの追加**: 新たに「Gretel-Navigator」モデルが追加され、その提供地域およびデプロイメントに関する情報が記載されています。これにより、ユーザーはGretelの利用可能性に関する最新の情報を得ることができます。
+1. **新增Gretel模型信息**：文档现在包含Gretel模型（Gretel-Navigator）的相关区域可用性数据，使得用户可以了解此模型在哪些地区可用，特别是在“Offer Availability Region”和“Hub/Project Region for Deployment”等列出了东美国2区。
 
-2. **JAISモデルの詳細化**: JAISモデルセクションが整備され、各モデルに関連する提供地域とデプロイメント地域の情報が明確に示されるようになりました。
+2. **调整了JAIS模型的顺序和格式**：将JAIS模型的相关信息移动到了新的位置，确保文档结构更加清晰。
 
-3. **その他のモデル情報の整理**: 既存のモデルセクション（Cohere、Meta Llama、Microsoft Phiなど）が整理され、情報が一貫して提示されることで、ユーザーが必要な情報を迅速に把握できるようになっています。
+3. **修改表格格式**：对表格进行了格式一致性调整，确保每一列的标头定义清晰，信息环境整齐。
 
-4. **地域に関する情報の更新**: 具体的な地域名が追加されたり、提供地域が修正されたりしており、モデルを利用可能な国や地域に関する正確さが向上しています。
+4. **添加关于不同模型的区域信息**：更新了其他AI模型的区域信息，确保其准确性。例如，更新了Meta Llama、Microsoft Phi、Mistral、Ai21等模型的可用性和部署区域。
 
-これらの変更により、ユーザーはさまざまなAIモデルの利用可能性と地域情報をより簡単に理解できるようになり、必要なプロジェクトに対して適切なリソースを見つけやすくなります。ドキュメント全体の可読性も向上し、情報の整理が強化されました。
+5. **删除冗余信息**：合理删除了一些不再适用的内容，以便简化文档，提升用户的阅读体验。
+
+通过这些改动，文档的准确性和可用性得到了增强，有助于用户快速查找相关的模型区可用性信息，提升其在Azure AI Foundry使用过程中的便利性。
 
 ## articles/ai-studio/toc.yml{#item-2745cd}
 
@@ -1358,17 +1397,17 @@ title: Diff Insight Report - misc
 ```json
 {
     "modification_type": "minor update",
-    "modification_title": "Gretel Navigatorモデルの追加"
+    "modification_title": "更新目录以包含Gretel Navigator模型"
 }
 ```
 
 ### Explanation
-このコードの変更は、`toc.yml`ファイルに対する修正を示しています。このファイルは、ドキュメントの目次を定義しており、ユーザーが関連する情報にアクセスしやすくするために使用されます。主な変更点は以下の通りです：
+此次修改对文档目录文件（toc.yml）进行了小幅更新，主要内容包括：
 
-1. **Gretel Navigatorモデルの追加**: 新たに「Gretel Navigatorモデル」に関する項目が目次に追加されました。これにより、ユーザーはGretel Navigatorモデルについてのガイドページ（`how-to/deploy-models-gretel-navigator.md`）に直接アクセスできるようになります。
+1. **新增Gretel Navigator模型**：在目录中添加了一项新条目，标题为“Gretel Navigator model”，并提供了相应的链接（如何部署Gretel Navigator模型的页面）。这使得用户可以更方便地查阅有关Gretel Navigator模型的信息和指导。
 
-2. **目次の整理**: 他のモデル項目（例えば「Mistral-7B and Mixtral models」や「JAIS model」）はそのまま残されており、Gretel Navigatorモデルが追加されたことで、さまざまなモデルに関する情報が一元管理される形になっています。
+2. **保持原有结构**：此次更新没有删除或更改其他条目，确保文档的整体结构和内容完整性未受到影响，从而维持了良好的用户体验。
 
-この変更により、ユーザーはGretel Navigatorモデルに関する情報を簡単に見つけることができ、学習や実装に役立てることができます。また、目次の充実により、全体的なナビゲーションが改善され、利用者にとっての利便性が向上しています。
+通过这些改进，文档目录得到了增强，使得用户在查阅过程中能够更轻松地找到新添加的Gretel Navigator模型的相关内容。这一更新满足了用户对新模型部署信息需求的及时响应。
 
 
