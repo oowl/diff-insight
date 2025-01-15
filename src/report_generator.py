@@ -31,7 +31,7 @@ class ReportGenerator:
         pass
 
     def generate_markdown_report(
-        self, title: str, date: date, permalink: str, summary: str, explanation: str
+        self, title: str, date: date, permalink: str, summary: str, explanation: str, loc: str
     ) -> str:
         """
         Generate a Markdown report from the diff data and its explanation.
@@ -42,7 +42,7 @@ class ReportGenerator:
         """
 
         metadata = {
-            "title": title,
+            "title": "[" + loc + "] " + title,
             "date": date.strftime("%Y-%m-%d"),
             "permalink": permalink,
             "summary": summary,

@@ -117,7 +117,7 @@ def generate_report(owner: str, repo: str, base: str, head: str, output: str, lo
 
         title = f"Diff Insight Report - {category}"
         report = report_generator.generate_markdown_report(
-            title, today, permalink, summary, explanation
+            title, today, permalink, summary, explanation, loc
         )
         output_path = today.strftime(output).format(category=category, loc=loc)
         report_generator.save_report_to_file(report, output_path)
